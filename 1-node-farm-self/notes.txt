@@ -1,0 +1,17 @@
+In node.js every file is treated as node module
+
+Version : "^1.18.11"
+1 is major Version for huge release (can break our code)
+18 is minor Version for adding new functionalities without breaking the code
+11 is patch version for bug fixes
+^ means that we accept patch and minor release
+~ means only accept patch release
+* all of the version
+
+npm outdated 
+npm update package_name
+
+npm i express
+npm uninstall express
+
+npm install for downloading all the dependencies that are in package.json file
